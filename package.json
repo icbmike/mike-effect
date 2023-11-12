@@ -1,4 +1,19 @@
 {
-  "name": "mike-effect",
-  "packageManager": "yarn@4.0.0"
+  "name": "@icbmike/mike-effect",
+  "version": "0.1.0",
+  "packageManager": "yarn@4.0.0",
+  "scripts": {
+    "dist": "tsc"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "redux": "^4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
